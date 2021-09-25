@@ -2,6 +2,10 @@
 
 Een **Object Relational Mapper** \(ORM\) maakt de data in een relationele database toegankelijk in een object-georienteerde programmeertaal op een manier die zo goed mogelijk aansluit bij object-orientatie. Zonder ORM kan object-georienteerde code slecht onderhoudbaar worden als er gebruik gemaakt wordt van relationele databases. Met een ORM zijn echter niet alle problemen verholpen: de **object-relational impedance mismatch** voorkomt dat relationele databases zonder veel problemen in object-georienteerde programma's gebruikt kunnen worden. 
 
+Een voor de hand liggende vraag is waarom ondanks zulke problemen relationele databases toch zoveel gebruikt worden bij object georienteerde programmatuur. Een reden is dat relationele databases al 
+
+Vanwege SQL, declearatief
+
 Waarom SQL uberhaupt? Industry standaard voor persistency, makkelijk voor niet programmeurs
 
 ## Geen ORM
@@ -101,7 +105,15 @@ class Student {                                   CREATE TABLE Student (
 }                                                 );
 ```
 
-Wat gebeurt er met de ID?
+De ID
+
+In relationele databases in de eerste normaalvorm horen er primaire sleutels te zijn die de rijen uniek identificeren, maar in een objectgeorienteerde programmeertaal is zo'n unieke sleutel niet altijd even eenduidig te definieren. Soms wordt de reference \(het geheugen adresje\) van objecten gebruikt om gelijkheid te definieren \(`==` bij `class`\), soms krijgt de methode `Equals` een alternatieve implementatie. 
+
+Het is niet ongewoon om in klassen die door de ORM in de database 
+
+Redudantie
+
+In objectgeorienteerde programmeertalen is 
 
 Hoe werkt overerving
 
