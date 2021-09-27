@@ -109,11 +109,45 @@ De ID
 
 In relationele databases in de eerste normaalvorm horen er primaire sleutels te zijn die de rijen uniek identificeren, maar in een objectgeorienteerde programmeertaal is zo'n unieke sleutel niet altijd even eenduidig te definieren. Soms wordt de reference \(het geheugen adresje\) van objecten gebruikt om gelijkheid te definieren \(`==` bij `class`\), soms krijgt de methode `Equals` een alternatieve implementatie. 
 
-Het is niet ongewoon om in klassen die door de ORM in de database 
+Het is niet ongewoon om in klassen die door de ORM uit/in de database worden gehaald/opgeslagen, een extra attribuut of property `int Id` te geven, als in de database zo'n kolom wordt gebruikt als primaire sleutel. Dit betekent wel dat in het programma twee objecten gelijk zijn als en slechts als zij dezelfde `Id` hebben. 
 
-Redudantie
+Normaliseren en redudantie
 
-In objectgeorienteerde programmeertalen is 
+Door normaliseren is er zelden redudantie in databases, maar bij het objectgeorienteerd programmeren is er niet een overeenkomstige bezigheid of streven. 
+
+* Het attribuut `Naam` hieronder, hoeft niet in de database te worden bewaard. 
+
+```csharp
+public String Naam {
+    get {
+        return Voornaam + " " + Achternaam: 
+    }
+    set {
+        string[] woorden = value.Split(" ");
+        Voornaam = woorden[0];
+        Achternaam = woorden.Aggregate((a, b) => a + " " + b);
+    }
+}
+```
+
+* De volgende code is een voorbeeld van een bidirectional relatie. In UML zouden er pijlen aan twee kanten van de associatie staan om de navigabiliteit aan te geven. 
+
+```csharp
+class Student
+{
+    // ...
+    public List<Resultaat> ToetsResultaten { get; set; }
+}
+
+class Resultaat
+{
+    public int Cijfer { get; set; }
+    public Toets Toets { get; set; }
+    public Student Student { get; set; }
+}
+```
+
+Omdat er in objectgeorienteerde programmeertalen geen `Join` operatie bestaat die alle objecten van het type `Student` naast een object van type `Resultaat` kan leggen om de bijbehorende student bij een gegeven resultaat te vinden, wordt `Student Student` in Resultaat bewaard. 
 
 Hoe werkt overerving
 
