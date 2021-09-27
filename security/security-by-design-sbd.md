@@ -27,9 +27,9 @@ Het OWASP \(Open Web Application Security Project\) is een open source-project r
 
 De OWASP Software Development Livecycle is een 6-delig cyclisch proces voor softwareontwikkeling waarbij elke stap bovenop de voorgaande stappen voortbouwt. Deze kan gebruikt worden voor SbD.
 
-![ Software Development lifecycle \( Copyright &#xA9; The OWASP Foundation \)](../.gitbook/assets/slide_5.jpg)
+![ Software Development lifecycle \(Copyright &#xA9; The OWASP Foundation\)](../.gitbook/assets/slide_5.jpg)
 
-In deze reader volgen we de stappen van deze OWASP Software Development Livecycle. 
+In deze reader volgen we de stappen van deze OWASP Software Development Lifecycle. 
 
 
 
