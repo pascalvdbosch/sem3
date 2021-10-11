@@ -6,7 +6,7 @@ Stap 2 in de OWASP Software Development Lifecycle gaat om Securityarchitectuur e
 
 Bedreigingsmodellering is een gestructureerd proces met de volgende doelstellingen: beveiligingsvereisten identificeren, beveiligingsbedreigingen en potentiële kwetsbaarheden lokaliseren, de mate van bedreiging en kwetsbaarheid kwantificeren en prioriteit geven aan herstelmethoden. De volgende stappen worden doorlopen:
 
-...
+![](<../.gitbook/assets/image (8).png>)
 
 Er zijn veel methoden voor het modelleren van bedreigingen ontwikkeld en ook meerdere tools (Irius Risk, Microsoft, OWASP, OVVL). We noemen hier 3 verschillende bedreigingsmodellen STRIDE, PASTA en LINDDUN.
 
@@ -53,7 +53,7 @@ _The OWASP Top 10 is a standard awareness document for developers and web applic
 
 De onlangs gepresenteerde top 10-2021 (OWASP TopTten, 2021) heeft de volgende wijzigingen t.o.v. die van 2017 (Bijlage 2)_. _
 
-_..._
+![(OWASP TopTten, 2021)](<../.gitbook/assets/image (7).png>)
 
 ### De OWASP top 10-2021 bedreigingen, kwetsbaarheden en maatregelen
 
@@ -140,4 +140,25 @@ Deze nieuwe categorie voor 2021 komt uit de OWASP community survey, waarin commu
 Voor het inbouwen van beveiliging in het ontwerp van de applicatie (SbD) bestaat een aantal richtlijnen, ook wel ontwerpcriteria of beveiligingsprincipes genoemd (Houten, Spruit, & Wolters, 2019).
 
 Onderstaande ontwerpprincipes zijn door Jerome Saltzer en Michael Schroeder opgesomd in hun artikel uit 1975 ‘De bescherming van informatie in computersystemen’ en opgenomen in Informatiebeveiliging onder Controle H.9.2 (Houten, Spruit, & Wolters, 2019).
+
+1. **Isolatie (Economy of mechanism)** Het principe van economy of mechanism stelt dat beveiligingsmechanismen, de hardware en software die relevant zijn voor de beveiliging, zo eenvoudig mogelijk moeten zijn. Als een ontwerp en implementatie eenvoudig zijn, zijn er minder mogelijkheden voor fouten. Het controle- en testproces is minder complex, omdat er minder componenten en cases hoeven te worden getest. Keep security simple, complexe architecturen vergroten de kans op fouten. 
+2. **Veilige defaults (Fail-safe Defaults)** Het systeem mag alleen toegang verlenen na expliciete permissie; alles wat niet expliciet is toegestaan, is verboden. 
+3. **Volledigheid (Complete Mediation)** Elke vorm van toegang mag pas plaatsvinden na Autorisatie(\*) door het systeem. Gebruikers en processen dienen zich daartoe altijd eerst te legitimeren. 
+4. **Open ontwerp** Een goede beveiligingsarchitectuur is niet gebaseerd op het geheimhouden van de gebruikte interne mechanismen (security by obscurity = zwakke plekken in de beveiliging ‘verstoppen’), maar gaat juist uit van een open ontwerp. Bij een gesloten ontwerp bestaat het risico dat de werking van interne mechanismen op den duur toch aan het licht komt, bijvoorbeeld door het toepassen van reverse engineering en het uitlekken van ontwerpdocumenten. Het voordeel van een open ontwerp is dat het intensiever kan worden getest en eenvoudiger kan worden verbeterd. 
+5. **Functiescheiding** Waar mogelijk moeten functies in het systeem worden gesplitst, waarbij de onderscheiden deelfuncties aan verschillende functionarissen moeten worden toegewezen (fraude voorkomen). Een bijzondere vorm van functiescheiding is het ‘4-ogen’-principe, waarbij voor gevoelige handelingen de Autorisatie() van meerdere functionarissen nodig is. 
+6. **Beperking (Least Privilege)** Het systeem moet zo opgezet zijn, dat bepaalde gebruikers en processen niet meer functies mogen uitvoeren of hulpbronnen mogen gebruiken dan strikt noodzakelijk is. Dit principe staat ook bekend onder de namen least privilege, need to know en need to use. 
+7. **Compartimenten** Het systeem moet bestaan uit verschillende compartimenten, segmenten of modules, zodat een mogelijk veiligheidsprobleem tot het specifieke compartiment, etc. beperkt blijft. 
+8. **Ergonomie** Het systeem moet zo ontworpen zijn dat de kans op menselijke fouten zo klein mogelijk is. Fouten van eindgebruikers kunnen worden beperkt door het ontwerpen van een ‘intuïtief’ gebruikersinterface, het integreren van beveiligingsmaatregelen in processtappen en het uitvoeren van automatische controles tijdens het gebruik van het systeem. Fouten in het beheer kunnen alleen worden beperkt als de hulpmiddelen voor het beheer en de beheerprocessen zelf voldoende transparant zijn, zodat alle betrokkenen inzicht hebben in wat er van ze wordt verwacht. 
+9. **Redundantie** De beveiligingsarchitectuur moet bestaan uit een combinatie van maatregelen, zodat de beveiliging niet afhankelijk is van één enkele maatregel (The principle of Defence in depth, OWASP): verschillende type security controles (lagen) aanbrengen. Meerdere beveiligingscontroles die risico's op verschillende manieren benaderen. Bijvoorbeeld in plaats van een gebruiker te laten inloggen met alleen een gebruikersnaam en wachtwoord ook een IP-controle, een Captcha-systeem, logboekregistratie van hun inlogpogingen, brute force-detectie gebruiken. 
+10. **Diversiteit** De beveiligingsarchitectuur moet bestaan uit meerdere maatregelen die wezenlijk van elkaar verschillen, zodat het doorbreken van één beveiligingsmaatregel niet automatisch leidt tot de val van het gehele systeem. 
+
+De OWASP geeft aanvullend hierop nog de volgende beveiligings-ontwerpprincipes (Security by Design Principles according to OWASP, sd) waaraan programmeurs zich zouden moeten houden om het risico op een succesvolle cyberaanval te verminderen.
+
+* Minimise attack surface area: beperk de (online)functies waartoe gebruikers toegang hebben, om mogelijke kwetsbaarheden te verminderen.
+* Establish secure defaults: de defaults zijn zo veilig als mogelijk, instellen van veilige standaardinstellingen (bijvoorbeeld hoe vaak wachtwoorden moeten worden bijgewerkt, hoe complex wachtwoorden moeten zijn)
+* Fail securely: zorg dat eventuele fouten niet tot onveilige situaties leiden (o.a. goede detectie / logging).
+* Don’t trust services: ga er in principe van uit dat third-party (externe) services niet te vertrouwen zijn, de applicatie moet altijd de geldigheid controleren van de gegevens die services van derden verzenden en die services geen machtigingen op hoog niveau binnen de app geven.
+* Fix security issues correctly: Als er een beveiligingsprobleem is vastgesteld in een toepassing, moet de hoofdoorzaak achterhaald, gerepareerd en getest worden. Als gebruik gemaakt is van design patterns is de kans groot dat de fout aanwezig is in meerdere systemen, alle betrokken systemen moeten derhalve getest worden.
+
+Privacyontwerpstrategieën
 
