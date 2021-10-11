@@ -1,4 +1,3 @@
 # Client-server
 
-![](../.gitbook/assets/modello_semplice.jpg)
-
+![](../.gitbook/assets/Modello_Semplice.jpg)
