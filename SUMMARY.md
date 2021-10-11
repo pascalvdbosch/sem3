@@ -2,14 +2,15 @@
 
 * [Semester 3](README.md)
 * [Security](security/README.md)
-  * [Security by Design \(SbD\)](security/security-by-design-sbd.md)
-  * [Requirements \(systeemeisen\)](security/requirements-systeemeisen.md)
+  * [Security by Design (SbD)](security/security-by-design-sbd.md)
+  * [Requirements (systeemeisen)](security/requirements-systeemeisen.md)
   * [Architecture and Design](security/untitled-2.md)
+  * [Bibliografie](security/bibliografie.md)
 * [Webprogramming](webprogramming/README.md)
   * [Client-server](webprogramming/untitled.md)
   * [HTML/CSS/JS](webprogramming/html-css-js.md)
   * [Bootstrap](webprogramming/bootstrap.md)
-  * [C\#](webprogramming/c/README.md)
+  * [C#](webprogramming/c/README.md)
     * [Anonieme typen new {}](webprogramming/c/anonieme-typen-new.md)
     * [Lambda's](webprogramming/c/lambdas.md)
     * [Properties](webprogramming/c/properties.md)
@@ -24,4 +25,3 @@
 * [Databases](databases.md)
 * [PDP](pdp.md)
 * [TODO](todo.md)
-

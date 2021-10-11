@@ -2,7 +2,7 @@
 
 Requirements definiëren is cruciaal voor het slagen van een project. 
 
-![(Software Requirements Specification Document, sd)](../.gitbook/assets/1\_ApoaIZicyU0b7Jgg9MMJhw.jpeg)
+![(Software Requirements Specification Document, sd)](../.gitbook/assets/1\_apoaizicyu0b7jgg9mmjhw.jpeg)
 
 Bij softwareontwikkeling wordt te vaak teveel de prioriteit gelegd bij functionaliteit (functionele requirements) en ontwikkeltijd en security en andere kwaliteitsaspecten (nietfunctionele requirements) zijn vaak slechts bijzaak, krijgen geen of nauwelijks prioriteit.
 

@@ -50,7 +50,7 @@ Er is [een extensie](https://marketplace.visualstudio.com/items?itemName=alexcvz
 * Selecteer jouw SQLite database bestand. 
 * Klik rechtsonderin op "_SQLite Explorer_". 
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 ## Het gebruik van SQL Server
 
@@ -92,22 +92,22 @@ Veelgemaakte fout: sommige karakters die de connectiestring typisch bevat, moete
 
 Open Microsoft SQL Server Management Studio ![](<../../.gitbook/assets/image (2).png>) en vul `localhost` in bij Server name. 
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (5).png>)
 
 In de _Object Explorer_ (_View _⇨_Object Explorer_) kan je vervolgens de tabellen zien in de databases. 
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 ### De SQL Server database bekijken vanuit VS Code
 
 Er is [een extensie](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) voor VS Code waarmee je SQL Servers kunt queryen en aanpassen vanuit VS Code. 
 
 * Zoek op "SQL Server" in de Extensions tab van VS Code en klik op Install
-* Klik op het icoontje ![](<../../.gitbook/assets/image (4).png>) in de toolbar aan de zijkant. 
+* Klik op het icoontje ![](<../../.gitbook/assets/image (1).png>) in de toolbar aan de zijkant. 
 * Klik op "_Add Connection_". 
 * Vul `localhost` in als server name en laat de database name leeg. Kies "_Integrated_" als "_authentication method_". 
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 ## Het gebruik van InMemoryDatabase
 

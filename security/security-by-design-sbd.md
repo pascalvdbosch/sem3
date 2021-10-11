@@ -8,7 +8,7 @@ Een eis inbrengen in een bestaande applicatie is duurder en minder effectief dan
 
 Privacy en veiligheid zijn gerelateerd. Privacy by Design wil zeggen dat privacy al bij het ontwikkelen van de applicatie bij het vaststellen van de requirements meegenomen wordt. Privacy by design draait om het beschermen van persoonsgegevens en het ondersteunen van gebruikers in hun rechten om controle uit te oefenen op de verwerking van de eigen persoonsgegevens.
 
-![(Information Security vs Privacy, are the Lines Blurring?, 2019)](../.gitbook/assets/E_l8S-yWEAE7uwm.jpg)
+![(Information Security vs Privacy, are the Lines Blurring?, 2019)](../.gitbook/assets/e_l8s-yweae7uwm.jpg)
 
 ## Secure Software
 
