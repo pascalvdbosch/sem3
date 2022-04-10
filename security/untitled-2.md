@@ -51,7 +51,7 @@ De OWASP heeft een top 10 opgesteld van de meest voorkomende security-bedreiging
 
 _The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications (OWASP TopTten, 2017)._
 
-De onlangs gepresenteerde top 10-2021 (OWASP TopTten, 2021) heeft de volgende wijzigingen t.o.v. die van 2017 (Bijlage 2)_. _
+De onlangs gepresenteerde top 10-2021 (OWASP TopTten, 2021) heeft de volgende wijzigingen t.o.v. die van 2017 (Bijlage 2)_._&#x20;
 
 ![(OWASP TopTten, 2021)](<../.gitbook/assets/image (7) (1).png>)
 

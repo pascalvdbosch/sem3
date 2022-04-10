@@ -1,6 +1,6 @@
 # Requirements (systeemeisen)
 
-Requirements definiëren is cruciaal voor het slagen van een project. 
+Requirements definiëren is cruciaal voor het slagen van een project.&#x20;
 
 ![(Software Requirements Specification Document, sd)](../.gitbook/assets/1\_apoaizicyu0b7jgg9mmjhw.jpeg)
 
@@ -8,7 +8,7 @@ Bij softwareontwikkeling wordt te vaak teveel de prioriteit gelegd bij functiona
 
 ## Functionele- en Niet-functionele requirements
 
-Requirements vertellen wat het te ontwikkelen systeem moet kunnen, de eisen aan het gedrag of de kwaliteit van het systeem. **Functionele **requirements beschrijven specifiek gedrag of functies, die het systeem moet vervullen (user requirements). **Niet-functionele** requirements specificeren criteria om het functioneren van het systeem te beoordelen, de zgn. kwaliteitseisen, maar beschrijven niet het specifieke gedrag zelf, hieronder vallen bijvoorbeeld betrouwbaarheid en beveiligbaarheid. De ISO-norm 25010 beschrijft kwaliteitskenmerken van softwaresystemen. Het model voor productkwaliteit (Product quality model, zie figuur 4) onderscheidt acht hoofdcategorieën: Functionele geschiktheid, Prestatie-efficiëntie, Uitwisselbaarheid, Bruikbaarheid, Betrouwbaarheid, Beveiligbaarheid, Onderhoudbaarheid, Overdraagbaarheid (Wikipedia, 2020). De ISO/IEC25010 is een Internationale standaard voor de productkwaliteit van software gedefinieerd naar Functionele eigenschappen en Niet-functionele eigenschappen. Deze norm is te downloaden via de bibliotheek van de HHS via de databank van NenConnect.
+Requirements vertellen wat het te ontwikkelen systeem moet kunnen, de eisen aan het gedrag of de kwaliteit van het systeem. **Functionele** requirements beschrijven specifiek gedrag of functies, die het systeem moet vervullen (user requirements). **Niet-functionele** requirements specificeren criteria om het functioneren van het systeem te beoordelen, de zgn. kwaliteitseisen, maar beschrijven niet het specifieke gedrag zelf, hieronder vallen bijvoorbeeld betrouwbaarheid en beveiligbaarheid. De ISO-norm 25010 beschrijft kwaliteitskenmerken van softwaresystemen. Het model voor productkwaliteit (Product quality model, zie figuur 4) onderscheidt acht hoofdcategorieën: Functionele geschiktheid, Prestatie-efficiëntie, Uitwisselbaarheid, Bruikbaarheid, Betrouwbaarheid, Beveiligbaarheid, Onderhoudbaarheid, Overdraagbaarheid (Wikipedia, 2020). De ISO/IEC25010 is een Internationale standaard voor de productkwaliteit van software gedefinieerd naar Functionele eigenschappen en Niet-functionele eigenschappen. Deze norm is te downloaden via de bibliotheek van de HHS via de databank van NenConnect.
 
 ## Betrouwbaarheid en Beveiligbaarheid
 
@@ -16,20 +16,20 @@ Requirements vertellen wat het te ontwikkelen systeem moet kunnen, de eisen aan 
 
 ### **Betrouwbaarheid (Reliability)**
 
-De mate waarin een systeem, product of component gespecificeerde functies uitvoert onder gespecificeerde condities gedurende een gespecificeerde hoeveelheid tijd. De ISO/IEC25010 maakt een verdere onderverdeling naar: 
+De mate waarin een systeem, product of component gespecificeerde functies uitvoert onder gespecificeerde condities gedurende een gespecificeerde hoeveelheid tijd. De ISO/IEC25010 maakt een verdere onderverdeling naar:&#x20;
 
 * **Volwassenheid (Maturity)**: De mate waarin een systeem, product of component aan betrouwbaarheidsbehoeften voldoet onder normale werkomstandigheden (aangetoonde betrouwbaarheid).
-* **Beschikbaarheid (Availability)**: De mate waarin een systeem, product of component operationeel en toegankelijk is wanneer men het wil gebruiken. 
+* **Beschikbaarheid (Availability)**: De mate waarin een systeem, product of component operationeel en toegankelijk is wanneer men het wil gebruiken.&#x20;
 * **Foutbestendigheid (Fault tolerance)**: De mate waarin een systeem, product of component werkt zoals bedoeld ondanks de aanwezigheid van hard- of softwarefouten.
 * **Herstelbaarheid (Recoverability)**: De mate waarin het product of systeem, in geval van een onderbreking of bij een fout, de direct betrokken gegevens kan herstellen en het systeem in de gewenste staat kan terug brengen.
 
 ### Beveiligbaarheid (Security)
 
-De mate waarin een product of systeem informatie en gegevens beschermt zodat personen, andere producten of systemen de juiste mate van gegevenstoegang hebben passend bij hun soort en niveau van Autorisatie(\*). De ISO/IEC25010 maakt een verdere onderverdeling naar: 
+De mate waarin een product of systeem informatie en gegevens beschermt zodat personen, andere producten of systemen de juiste mate van gegevenstoegang hebben passend bij hun soort en niveau van Autorisatie(\*). De ISO/IEC25010 maakt een verdere onderverdeling naar:&#x20;
 
 * **Vertrouwelijkheid (Confidentiality)**: De mate waarin een product of systeem ervoor zorgt dat gegevens alleen toegankelijk zijn voor diegenen die geautoriseerd zijn.
 * **Integriteit (Integrity)**: De mate waarin een systeem, product of component ongeautoriseerde toegang tot of aanpassing van computerprogramma’s of gegevens verhindert.
-* **Onweerlegbaarheid (Non-repudiation)**: De mate waarin kan worden bewezen dat acties of gebeurtenissen plaats hebben gevonden, zodat later deze acties of gebeurtenissen niet ontkend kunnen worden. 
+* **Onweerlegbaarheid (Non-repudiation)**: De mate waarin kan worden bewezen dat acties of gebeurtenissen plaats hebben gevonden, zodat later deze acties of gebeurtenissen niet ontkend kunnen worden.&#x20;
 * **Verantwoording (Accountability)**: De mate waarin acties van een entiteit getraceerd kunnen worden naar die specifieke entiteit.
 * **Authenticiteit (Authenticity)**: De mate waarin bewezen kan worden dat de identiteit van een onderwerp of bron is zoals wordt beweerd. De mate waarin een claim over de oorsprong of de auteur van de informatie verifieerbaar is, bijvoorbeeld aan handschrift.
 
@@ -59,7 +59,7 @@ Gegevens in een applicatie kunnen zich in drie toestanden bevinden in rust (at r
 
 Een gegevensstroomdiagram (data flow diagram, DFD) illustreert de stroom en de transformatie van gegevens voor een bepaald bedrijfsproces. Het is een visuele weergave van de manier waarop gegevens door een systeem stromen bestaande uit Processen, Stores, Actors en/of DataFlows, zodat duidelijk te zien is waar de gegevens vandaan komen, waar ze naartoe gaan en hoe ze worden opgeslagen.
 
-![(Data_at_rest, 2021)](../.gitbook/assets/3\_states_of_data.jpg)
+![(Data\_at\_rest, 2021)](../.gitbook/assets/3\_states\_of\_data.jpg)
 
 ### Belanghebbenden
 
